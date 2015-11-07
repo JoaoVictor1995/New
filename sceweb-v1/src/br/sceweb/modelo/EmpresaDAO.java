@@ -2,11 +2,10 @@ package br.sceweb.modelo;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
-
 import br.fatec.dominio.Empresa;
 
 public class EmpresaDAO {
+
 
 	public int adicionar(Empresa empresa) {
 		PreparedStatement ps;

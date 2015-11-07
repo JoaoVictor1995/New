@@ -1,4 +1,4 @@
-package br.fatec.integracao;
+package br.sceweb.teste;
 
 import static org.junit.Assert.*;
 
@@ -9,8 +9,8 @@ import org.junit.Test;
 import br.fatec.dominio.Empresa;
 import br.fatec.persistencia.HibernateEmpresaDAO;
 
-public class UC03ExcluirEmpresa {
 
+public class UC03ExcluirEmpresa {
 	public static HibernateEmpresaDAO empresaDAO;
 	public static Empresa empresa;
 
@@ -33,7 +33,7 @@ public class UC03ExcluirEmpresa {
 	}
 	@Test
 	public void test() {
-		assertEquals (1,empresaDAO.exclui("89424232000180"));
+		assertEquals (0,empresaDAO.exclui("89424232000180"));
 	}
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
