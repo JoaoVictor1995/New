@@ -6,8 +6,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import br.sceweb.modelo.Empresa;
-import br.sceweb.modelo.EmpresaDAO;
+import br.fatec.dominio.Empresa;
+import br.sceweb.modelo.*;
 
 public class UC01CadastrarEmpresa {
 	
