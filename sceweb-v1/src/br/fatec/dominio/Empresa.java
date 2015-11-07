@@ -2,13 +2,10 @@ package br.fatec.dominio;
 
 import java.util.InputMismatchException;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 
-@Entity
+
 public class Empresa {
 
-	@Id
 	String cnpj;
 	String nomeDaEmpresa;
 	String nomeFantasia;
